@@ -1,110 +1,105 @@
 
 body {
-  background-color:#58B99D;
-  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
-  max-width: none;
+background-color:#58B99D;
+font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+width: 100%;
 }
-
+    /*Aqui empieza la navegacion*/
 
 .navegacion{
-  background-color: #303E4F;
-  background-size:auto;
-  font-size: 1.1rem;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 700;
-  padding-left: 74px;
-  padding-right:74px;
-  align-items: center;
+background-color: #303E4F;
+background-size:auto;
+font-size: 1.1rem;
+display: flex;
+justify-content: space-between;
+font-weight: 700;
+padding-left: 74px;
+padding-right:74px;
+align-items: center;
 
   }
 .navegacion #strap{
-    font-size: 30px;
-
-  }
+font-size: 30px;
+}
 #strap a{
-  color: white;
-  text-decoration: none;
+color: white;
+text-decoration: none;
+}
+#menu ul:hover{
+  color:#58b99d;
 }
 ul{
-  list-style:none;
-  margin:0px;
-  padding:0px;
-  clear:both;
-  letter-spacing: 1px;
-  margin-left: auto!important;
-
-  }
-
+list-style:none;
+margin:0px;
+padding:0px;
+clear:both;
+letter-spacing: 1px;
+margin-left: auto!important;
+}
 ul li{
-  margin:0px 10px;
-  padding:0px;
-  float:left;
-  }
+margin:0px 10px;
+padding:0px;
+float:left;
+}
 ul li a{
-  color: white;
-  display:block;
-  text-decoration:none;
+color: white;
+display:block;
+text-decoration:none;
 }
-
+  /*Aqui empieza el primer contenedor*/
 .Contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
-
 #foto-container{
-  border-radius: 50%;
-  display: block;
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
-  padding-top: 30px;
+border-radius: 50%;
+display: block;
+border-radius: 50%;
+width: 300px;
+height: 300px;
+padding-top: 30px;
 }
-
 p{
-  text-align: center;
-  color: white;
+text-align: center;
+color: white;
 }
-
 p.name{
-  font-size: 76px;
-  font-weight: 700;
+font-size: 76px;
+font-weight: 700;
 }
-
 p.skills{
-  font-size: 28px;
-  padding-bottom: 40px;
+font-size: 28px;
+padding-bottom: 40px;
 }
-/*Segunda seccion del Web-site con foto*/
 
-.contenedor2{
-  background-color: white;
-  align-items: center;
+/*aqui comienza el segundo contenedor*/
+
+.contenedor2 {
+background-color: white;
+align-items: center;
 
 }
 .portafolio{
-  flex-direction:column;
-  align-items: center;
-  min-width: auto;
-}
-#portafolio {
-  padding-top: 100px;
-  align-content: : center;
-  color: black;
-  font-size: 3em;
-  font-weight: 700;
-  margin: 0;
+flex-direction:column;
 
 }
+#portafolio {
+padding-top: 100px;
+align-content: : center;
+color: black;
+font-size: 3em;
+font-weight: 700;
+margin: 0;
+}
 #star{
-  color: #303E4F;
-  padding: 20px;
+color: #303E4F;
+padding: 20px;
 }
 /*Seccion de formato a Imagenes*/
 
 .matriz{
-width: 100%;
+
 padding-right: 15px;
 padding-left: 15px;
 margin-right: auto;
@@ -112,86 +107,84 @@ margin-left: auto;
 max-width: auto;
 }
 .selection{
-  display: flex;
-  flex-direction: row;
-  align-items:flex-start;
+display: flex;
+flex-direction: row;
+align-items:flex-start;
 
 }
 .imagenes{
 display: inline-block;
 flex-wrap:wrap;
-flex-direction:column
+flex-direction:column;
+margin-left: 10%;
+margin-right: 10%;
+padding: 10%;
 }
 #pulpo{
-  background-color: #AD5364;
-  background-size: cover;
-  margin: 30px;
-  height: 253px;
-  width: 350px;
-xs}
+background-color: #AD5364;
+margin: 30px;
+height: 350px;
+width: 350px;
+}
 #vj{
-  background-color: #4EA2B4;
-  margin: 30px;
-  height: 253px;
-  width: 350px;
-  background-size: cover;
-
-
+background-color: #4EA2B4;
+margin: 30px;
+height: 350px;
+width: 350px;
+background-size: cover;
 }
 #sass{
-  background-color: black;
-  margin: 30px;
-  height: 253px;
-  width: 350px;
-  background-size: cover;
-
-
+background-color: black;
+margin: 30px;
+height: 350px;
+width: 350px;
+background-size: cover;
 }
 #angular{
-  background-color:#3F82BC;
-  margin: 30px;
-  height: 253px;
-  width: 350px;
-  background-size: cover;
+background-color:#3F82BC;
+margin: 30px;
+height: 350px;
+width: 350px;
+background-size: cover;
 }
-/*Comienza el About seccion*/
-
+    /*Aqui comienza la seccion de Info*/
 .info{
-  background-color:#58B99D;
-  color:white;
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  padding-top: 109px;
-  margin-right: 103px;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 100%;
+background-color:#58B99D;
+color:white;
+font-size: 1rem;
+font-weight: 400;
+line-height: 1.5;
+padding-top: 109px;
+margin-right: 103px;
+padding-left: 15px;
+padding-right: 15px;
+width: 100%;
+align-items: center;
 }
 h2{
-  text-align: center!important;
-  font-size: 3em;
-  font-weight: 700;
-  padding-top: : 109px;
+text-align: center!important;
+font-size: 3em;
+font-weight: 700;
+padding-top: : 109px;
 }
 .texto{
-  color: white;
-  display: flex;
-  font-size: 20px;
-  margin: 3%;
-  justify-content: flex-start;
-  box-sizing: content-box;
-}
-.info, a{
-  text-decoration: none;
-  color: white;
-  font-size: 20px;
-  font-weight: 400;
-  align-content: center;
-  text-align: center;
-  border: solid 2px #fff;
-  padding:.5rem 1rem;
-  border-radius: .3rem;
-  line-height: 1.5;
+color: white;
+width: 500px;
+margin: auto;
+display:inline-block;
+justify-content:space-between;
 
+;
+}
+#download {
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: 400;
+align-content: center;
+text-align: center;
+border: solid 2px #fff;
+padding:.5rem 1rem;
+border-radius: .3rem;
+line-height: 1.5;
 }
