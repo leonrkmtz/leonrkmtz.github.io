@@ -5,6 +5,7 @@ body {
   max-width: none;
 }
 
+
 .navegacion{
   background-color: #303E4F;
   background-size:auto;
@@ -89,7 +90,7 @@ p.skills{
 }
 #portafolio {
   padding-top: 100px;
-  text-align: center !important;
+  align-content: : center;
   color: black;
   font-size: 3em;
   font-weight: 700;
@@ -118,9 +119,8 @@ max-width: auto;
 }
 .imagenes{
 display: inline-block;
-justify-content: center;
-image-orientation: center;
-align-items: center;
+flex-wrap:wrap;
+flex-direction:column
 }
 #pulpo{
   background-color: #AD5364;
@@ -153,6 +153,45 @@ xs}
   height: 253px;
   width: 350px;
   background-size: cover;
+}
+/*Comienza el About seccion*/
 
+.info{
+  background-color:#58B99D;
+  color:white;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-top: 109px;
+  margin-right: 103px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+h2{
+  text-align: center!important;
+  font-size: 3em;
+  font-weight: 700;
+  padding-top: : 109px;
+}
+.texto{
+  color: white;
+  display: flex;
+  font-size: 20px;
+  margin: 3%;
+  justify-content: flex-start;
+  box-sizing: content-box;
+}
+.info, a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  align-content: center;
+  text-align: center;
+  border: solid 2px #fff;
+  padding:.5rem 1rem;
+  border-radius: .3rem;
+  line-height: 1.5;
 
 }
