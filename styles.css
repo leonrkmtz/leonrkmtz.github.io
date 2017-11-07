@@ -1,0 +1,23 @@
+.Contenedor {
+  background-color:#58B99D ;
+  font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Contenedor img{
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+p{
+  text-align: center;
+  color: white;
+}
+p.name{
+  font-size: 76px;
+  font-weight: 700;
+}
+p.skills{
+  font-size: 28px;
+}
