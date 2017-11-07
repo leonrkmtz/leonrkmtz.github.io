@@ -1,23 +1,158 @@
-.Contenedor {
-  background-color:#58B99D ;
+
+body {
+  background-color:#58B99D;
   font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
+  max-width: none;
+}
+
+.navegacion{
+  background-color: #303E4F;
+  background-size:auto;
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  padding-left: 74px;
+  padding-right:74px;
+  align-items: center;
+
+  }
+.navegacion #strap{
+    font-size: 30px;
+
+  }
+#strap a{
+  color: white;
+  text-decoration: none;
+}
+ul{
+  list-style:none;
+  margin:0px;
+  padding:0px;
+  clear:both;
+  letter-spacing: 1px;
+  margin-left: auto!important;
+
+  }
+
+ul li{
+  margin:0px 10px;
+  padding:0px;
+  float:left;
+  }
+ul li a{
+  color: white;
+  display:block;
+  text-decoration:none;
+}
+
+.Contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.Contenedor img{
+
+#foto-container{
   border-radius: 50%;
-  height: 300px;
+  display: block;
+  border-radius: 50%;
   width: 300px;
+  height: 300px;
+  padding-top: 30px;
 }
+
 p{
   text-align: center;
   color: white;
 }
+
 p.name{
   font-size: 76px;
   font-weight: 700;
 }
+
 p.skills{
   font-size: 28px;
+  padding-bottom: 40px;
+}
+/*Segunda seccion del Web-site con foto*/
+
+.contenedor2{
+  background-color: white;
+  align-items: center;
+
+}
+.portafolio{
+  flex-direction:column;
+  align-items: center;
+  min-width: auto;
+}
+#portafolio {
+  padding-top: 100px;
+  text-align: center !important;
+  color: black;
+  font-size: 3em;
+  font-weight: 700;
+  margin: 0;
+
+}
+#star{
+  color: #303E4F;
+  padding: 20px;
+}
+/*Seccion de formato a Imagenes*/
+
+.matriz{
+width: 100%;
+padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+max-width: auto;
+}
+.selection{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-start;
+
+}
+.imagenes{
+display: inline-block;
+justify-content: center;
+image-orientation: center;
+align-items: center;
+}
+#pulpo{
+  background-color: #AD5364;
+  background-size: cover;
+  margin: 30px;
+  height: 253px;
+  width: 350px;
+xs}
+#vj{
+  background-color: #4EA2B4;
+  margin: 30px;
+  height: 253px;
+  width: 350px;
+  background-size: cover;
+
+
+}
+#sass{
+  background-color: black;
+  margin: 30px;
+  height: 253px;
+  width: 350px;
+  background-size: cover;
+
+
+}
+#angular{
+  background-color:#3F82BC;
+  margin: 30px;
+  height: 253px;
+  width: 350px;
+  background-size: cover;
+
+
 }
