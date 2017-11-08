@@ -311,7 +311,7 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
-.formulario{
+#formulario{
   color: black;
   display: block;
   padding-left:400px;
