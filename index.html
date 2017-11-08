@@ -9,15 +9,17 @@
 
   </head>
   <body>
-      <div id="navegacion">
-            <p id="strap"><a href="https://blackrockdigital.github.io/startbootstrap-freelancer/">START BOOTSTRAP</a>
+    <div id="navegacion">
+      <div class="navegacion">
+          <p id="strap"><a href="https://blackrockdigital.github.io/startbootstrap-freelancer/">START BOOTSTRAP</a>
             </p>
-            <ul id="menu">
+        <ul id="menu">
               <li><a href="#contenedor2" title="Link 1"><span>PORTFOLIO<span></a></li>
               <li><a href="#info" title="Link 2"><span>ABOUT</span></a></li>
               <li><a href="#formulario" title="Link 3"><span>CONTACT</span></a></li>
-          </ul>
+        </ul>
       </div>
+    </div>
     <!-- Seccion media con fotografia -->
         <div id="Contenedor">
           <!-- seccion de encabezado fondo verde -->
@@ -36,16 +38,23 @@
               <p id="portafolio">PORTFOLIO</p>
               <p id="star"><i class="fa fa-star fa-3x" aria-hidden="true"></i></p>
             </div>
-            <div class="imagenes">
-                <img id="pulpo"src="./hero_squid.png" alt="pulpo_img">
-                <img id="vj"src="./logo-b6e1ef6e.svg" alt="">
-                <img id="sass"src="./logov.png" alt="vlogo">
-                <img id="angular"src="./angularcli.svg" alt="angular">
-                <img id="typescript"src="./logo_nocircle.svg" alt="angular">
-            </div>
+          <div class="imagenes">
+                <div class="pulpo-cont">
+                  <img id="pulpo"src="./hero_squid.png" alt="pulpo_img"></div>
+                <div class="vj-cont">
+                  <img id="vj"src="./logo-b6e1ef6e.svg" alt="vj-imagen"></div>
+                <div class="sass-cont">
+                  <img id="sass"src="./logov.png" alt="vlogo"></div>
+                <div class="yo-cont">
+                  <img id="yo"src="./yo.jpg" alt="vlogo"></div>
+                <div class="angular-cont">
+                  <img id="angular"src="./angcolor.png" alt="angular"></div>
+                <div class="typescript-cont">
+                  <img id="typescript"src="./logo_nocircle.svg" alt="angular"></div>
+          </div>
         </div>
             <!-- Empieza el about seccion -->
-            <div id="info">
+          <div id="info">
               <h2 class="about">ABOUT</h2>
               <p><i class="fa fa-star fa-3x" aria-hidden="true"></i></p>
               <div class="parrafos">
@@ -55,8 +64,9 @@
               <div class="bajar">
               <a class="download" href="#" <i class="fa fa-download"></i> Download Theme</a>
               </div>
-              <!-- INICIA HOJA DE CONTACTO -->
-              <div class="contacto">
+            </div>
+            <!-- INICIA HOJA DE CONTACTO -->
+            <div class="contacto">
                   <h2 class="about">CONTACT ME</h2>
                   <p id="star" ><i class="fa fa-star fa-3x" aria-hidden="true"></i></p></hr>
                   <!-- area del formulario -->
@@ -70,11 +80,9 @@
                       <input type="tel" name="phone" value="">
                       <label for="message">Message</label>
                       <input type="text" name="message" value="">
-                      <input type="submit" value="Submit">
+                      <input type="Enviar" value="Enviar">
                     </form>
                   </div>
-              </div>
-
             </div>
       </div>
   </body>

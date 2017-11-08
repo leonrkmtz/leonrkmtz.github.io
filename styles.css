@@ -6,7 +6,7 @@ width: 100%
 }
     /*Aqui empieza la navegacion*/
 
-#navegacion{
+.navegacion{
 background-color: #303E4F;
 font-size: 1.1rem;
 display: flex;
@@ -15,17 +15,26 @@ font-weight: 700;
 padding-left: 74px;
 padding-right:74px;
 align-items: center;
-width: 100%;
 }
-#navegacion #strap{
+#navegacion{
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+}
+#strap{
 font-size: 30px;
+max-width: 100%;
 }
 #strap a{
 color: white;
 text-decoration: none;
 }
-#menu ul:hover{
-  color:#58b99d;
+a, a.active, a:active, a:focus, a:hover {
+color: #18bc9c;
+outline: 0;
 }
 ul{
 list-style:none;
@@ -50,15 +59,15 @@ text-decoration:none;
 display: flex;
 flex-direction: column;
 align-items: center;
-width: 100%;
+
 }
 #foto-container{
 border-radius: 50%;
 display: block;
-border-radius: 50%;
-width: 300px;
-height: 300px;
-padding-top: 30px;
+width: 350px;
+height: 350px;
+padding-top: 70px;
+
 }
 p{
 text-align: center;
@@ -78,7 +87,7 @@ padding-bottom: 40px;
 #contenedor2 {
 background-color: white;
 align-items: center;
-width: 100%;
+
 }
 .portafolio{
 flex-direction:column;
@@ -112,97 +121,115 @@ align-items:flex-start;
 
 }
 .imagenes{
-display: inline-block;
+display: flex;
 flex-wrap:wrap;
-flex-direction:column;
 margin-left: 10%;
 margin-right: 10%;
 padding: 10%;
 
 }
-#typescript{
+/*cuadro del pulpo*/
+.pulpo-cont{
   background-color: #303E4F;
-  margin: 30px;
-  height: 350px;
-  width: 35%;
-
-}
-@media (min-width: 401px){
-#pulpo{
-background-color: #303E4F;
-margin: 30px;
-height: 350px;
-width: 35%;
-}
-}
-@media (max-width: 400px){
-#pulpo{
-background-color: #303E4F;
-margin: 30px;
-height: 350px;
-width: 90%;
-}
-}
-@media (min-width: 401px){
-#vj{
-background-color: #303E4F;
-margin: 30px;
-height: 350px;
-width: 35%;
-background-size: cover;
-}
-}
-@media (max-width: 400px){
-#vj{
-background-color: #303E4F;
-margin: 30px;
-height: 350px;
-width: 90%;
-background-size: cover;
-}
-}
-@media (min-width: 401px){
-#sass{
-background-color: #303E4F;
-margin: 30px;
-height: 350px;
-width: 35%;
-background-size: cover;
-}
-}
-@media (max-width: 400px){
-#sass{
-background-color: #303E4F;
-margin: 30px;
-height: 350px;
-width: 90%;
-background-size: cover;
-}
-}
-
-@media (min-width: 401px){
-  #angular{
-  background-color:#303E4F;
-  margin: 30px;
-  height: 350px;
-  width: 30%;
-  background-size: cover;
-}
-}
-@media (max-width: 400px){
-  #angular{
-  background-color:#303E4F;
-  margin: 30px;
-  height: 350px;
-  width: 90%;
-  background-size: cover;
+  height: 252px;
+  width: 350px;
   background-attachment: fixed;
+  padding: 10px;
 }
+#pulpo{
+  background-color: #C8B3A5;
+  border-radius: 50%;
+  margin: 9px;
+  height: 200px;
+  width: 200px;
 }
+/*cuadro contenedr de vj*/
+.vj-cont{
+  background-color: #303E4F;
+  height: 252px;
+  width: 350px;
+  background-attachment: fixed;
+  padding: 10px;
+}
+#vj{
+  background-color: #C8B3A5;
+  border-radius: 50%;
+  margin: 9px;
+  height: 200px;
+  width: 200px;
+}
+/*contenedor sass*/
+.sass-cont{
+  background-color: #303E4F;
+  height: 252px;
+  width: 350px;
+  background-attachment: fixed;
+  padding: 10px;
+}
+#sass{
+  background-color: #C8B3A5;
+  border-radius: 50%;
+  margin: 9px;
+  height: 200px;
+  width: 200px;
+
+}
+/*Inicia contenedor yo*/
+.yo-cont{
+  background-color: #303E4F;
+  height: 252px;
+  width: 350px;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+#yo{
+  border-radius: 50%;
+  margin: 9px;
+  height: 200px;
+  width: 200px;
+}
+/*Inicia contenedor angular*/
+.angular-cont{
+  background-color: #303E4F;
+  height: 252px;
+  width: 350px;
+  background-attachment: fixed;
+  padding: 10px;
+
+}
+#angular{
+  background-color: #C8B3A5;
+  border-radius: 50%;
+  margin: 9px;
+  height: 200px;
+  width: 200px;
+
+}
+/*inicia typescript*/
+.typescript-cont{
+  background-color: #303E4F;
+  height: 252px;
+  width: 350px;
+  background-attachment: fixed;
+  padding: 10px;
+}
+
+#typescript{
+  background-color: #C8B3A5;
+  border-radius: 50%;
+  margin: 9px;
+  height: 200px;
+  width: 200px;
+}
+
+
 
 /*Aqui comienza la seccion de Info*/
+.contacto{
+background-color: white;
+}
 #info{
-background-color:#58B99D;
 color:white;
 font-size: 1rem;
 font-weight: 400;
@@ -211,7 +238,6 @@ padding-top: 50px;
 margin-right: 103px;
 padding-left: 15px;
 padding-right: 15px;
-width: 100%;
 align-items: center;
 }
 h2{
@@ -251,16 +277,43 @@ justify-content: center;
 }
 /*INICIA HOJA DE CONTACTO*/
 .contacto{
-  background-color: white;
-  width: 100%;
+background-color: white;
+width: 100%;
 }
 h2.about{
-  color: black;
-  padding-top: 30px;
-  padding-bottom: 30px;
+color: black;
+padding-top: 30px;
+padding-bottom: 30px;
 }
 p.star{
-  color: #303E4F;
+color: #303E4F;
+}
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=email], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=tel], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 input[type=text], select {
     width: 100%;
@@ -271,32 +324,6 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-input[type=email], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}input[type=tel], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}input[type=text], select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
 input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
@@ -307,8 +334,7 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
-input[type=submit]:hover {
+input[type=Enviar]:hover {
     background-color: #45a049;
 }
 #formulario{
@@ -317,8 +343,4 @@ input[type=submit]:hover {
   padding-left:400px;
   padding-right:400px;
   padding-bottom: 60px;
-
-
-
-
 }
