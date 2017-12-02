@@ -1,0 +1,118 @@
+body{
+  margin: 0;
+  max-width: 1383px;
+}
+.container .navbar{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(244,67,54);
+  height: 66px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  position: -webkit-sticky;
+  position: sticky;
+  box-shadow: 0 8px 10px -8px black;
+
+}
+.container .navbar .left{
+  display: inline-flex;
+  align-items: center;
+  height: 66px;
+  margin-left: 20px;
+  width: 209px;
+}
+.barra{
+  position: relative;
+}
+.cli{
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight:300;
+
+}
+
+.container .navbar .right{
+display: inline-flex;
+height: inherit;
+
+
+}
+.container .navbar .right a{
+  padding-left: 16px;
+  padding-right: 16px;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  text-align: right;
+
+}
+.right a:hover{
+  background-color: #C64139;
+  color: white;
+}
+
+.container .navbar .right div{
+  width: 730px;
+  margin-left: 20px;
+}
+.body{
+  background-color:#E9403B;
+  width: 920px
+  height:220px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.body img{
+  padding-right: 40px;
+  margin-top: 64px;
+  margin-left: 54px;
+}
+.inside{
+ ;
+}
+.body .inside h4{
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  margin: 24px 0 16px;
+}
+h5 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+  max-width: 300px;
+}
+.inside{
+  text-align: left;
+  padding-left: 30px;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.inside a{
+  font-family: 'Roboto', sans-serif;
+  background-color:rgb(255,255,255);
+  color: rgb(183,28,28);
+  text-decoration: none;
+  border-radius: 2%;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+  display: inline-block;
+  width: 145px;
+  height: 45;
+  padding: 15px;
+  text-align: center;
+
+}
